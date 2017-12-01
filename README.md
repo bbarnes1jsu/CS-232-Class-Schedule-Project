@@ -19,12 +19,12 @@ It will then display all the courses under that course number.
 
 ![Imgur](https://i.imgur.com/Xn3j8AI.png)
 
-After retriving the courses the program will redirect you to the menu where you will select the second option to register for the course. After selecting the second choice, you will be asked for the CRN number. The CRN number is the five digit number after the name of the course. After entering the the CRN number the course will be added to your schedule.
+After retriving the courses, the program will redirect you to the menu where you will select the second option to register for the course. After selecting the second choice, you will be asked for the CRN number. The CRN number is the five digit number after the title of the course. After entering the the CRN number, the course will be added to your schedule.
 
 ![Imgur](https://i.imgur.com/8mJp1Ic.png)
 
-After successfully adding the course or failing due to a conflict, you will be redirected to the menu. You can select the first choice again to search for another course. You will be notified if the course was successfully added or failed to add due to a conflict.
-The third menu choice allows you to view the schedule if you need to see what you have added.
+After successfully adding the course or failing due to a conflict, you will be redirected to the menu. You will be notified if the course was successfully added or failed to add due to a conflict. You can select the first choice again to search for another course or the second choice again if you failed. 
+The third menu choice allows you to view the schedule if you would like to see what your current schedule looks like.
 
 ![Imgur](https://i.imgur.com/LFyi8Pj.png)
 
