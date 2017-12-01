@@ -5,6 +5,7 @@ package cs232project1_bb;
  * @author Brandon Barnes
  */
 public abstract class Course {
+    //Instance Fields
     private String[] stuff;
     private String courseName;
     private String crnNum;
@@ -25,31 +26,31 @@ public abstract class Course {
         this.stuff = stuff;
     
     }
-    
+    //This method retrives the Course Name
     public String getCourseName(){
         return courseName;
     }
-    
+    //This method retrives the CRN Number
     public String getCrnNumber(){
         return crnNum;
     }
-    
+    //This method retrives the Course Number
     public String getCourseNumber(){
         return courseNum;
     }
-    
+    //This method retrives the Section Number
     public String getSectionNumber(){
         return sectionNum;
     }
-    
+    //This method retrives the Credit Hours
     public String getCreditHours(){
         return creditHours;
     }
-    
+    //This method retrives the Course Type
     public String getCourseType(){
         return courseType;
     }
-    
+    //This method retrives the Instructor Name
     public String getInstructorName(){
         return instructorName;
     }

@@ -30,29 +30,30 @@ public class TraditionalCourse extends Course {
         return days;
     }
     
-    @Override
+    @Override //Will check to see if the courses conflict with one another
     public boolean conflictsWith(Course c){
         if(c instanceof OnlineCourse){
             return false;
         }
-        boolean boogy = false;
+        boolean conflicting = false;
         TraditionalCourse t = (TraditionalCourse)c;
+        
         if(this.startingTime.isBefore(t.getStoppingTime()) && this.stoppingTime.isAfter(t.getStoppingTime())){
-            boogy = true;
+            conflicting = true;
         }
         if(this.stoppingTime.equals(t.getStartingTime()) || this.stoppingTime.equals(t.getStoppingTime())){
-            boogy = true;
+            conflicting = true;
         }
         if(this.startingTime.equals(t.getStartingTime()) || this.startingTime.equals(t.getStoppingTime())){
-            boogy = true;
+            conflicting = true;
         }
         if(this.startingTime.isAfter(t.getStartingTime()) && this.startingTime.isBefore(t.getStoppingTime())){
-            boogy = true;
+            conflicting = true;
         }
         if(this.stoppingTime.isAfter(t.getStartingTime()) && this.stoppingTime.isBefore(t.getStoppingTime())){
-            boogy = true;
+            conflicting = true;
         }
-        return boogy;
+        return conflicting;
     }
           
     

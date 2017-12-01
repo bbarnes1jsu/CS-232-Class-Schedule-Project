@@ -11,7 +11,7 @@ import java.util.Scanner;
  * @author Brandon Barnes
  */
 public class Controller {
-    
+    //Creating ArrayLists to store the courses and schedule
     private static List<Course> courses = new ArrayList<>();
     private static List<Course> schedule = new ArrayList<>();
     
@@ -39,7 +39,7 @@ public class Controller {
             }
             
             boolean finished = false;
-            
+            //Loop to forever run until the user is done with their schedule
             while(finished == false){
                 System.out.println("1) Search Courses");
                 System.out.println("2) Register for Course");
@@ -80,12 +80,9 @@ public class Controller {
                                     schedule.add(c);
                                     System.out.println("Course added successfully!");
                                 }
-                            }//s = c;
+                            }
                         }
-                        //if(conflicts == false && s!=null){
-                        //    schedule.add(s);
-                        //    System.out.println("Course added successfully!");
-                        //}
+                        
                         break;
                     case "3":
                         for(int i = 0;i<schedule.size();i++){
