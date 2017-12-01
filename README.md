@@ -6,3 +6,5 @@ My task for this project is to implement a system which will allow the user to:
      * Search for specfic courses in the data base by course number, which should return a list of section(s) available for each course.
      * Register for a specfic course and section by entering the corrseponding CRN number. The system should now allow the user to register for classes which conflict with each other.
      * View the trial schedule, in the form of a list of the courses that have been added to the schedule so far.
+     
+Each of these will be chosen by the user from a simple menu.
